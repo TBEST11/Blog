@@ -16,7 +16,7 @@
 
     </div>
     @endif
-    @foreach ($comment as $item)
+    @foreach ($comments as $item)
         
             <div>
 

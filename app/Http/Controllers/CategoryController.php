@@ -38,7 +38,7 @@ class CategoryController extends Controller
         $category = new Category;
         $category->name = $request->name;
         $category->slug = Str::slug($request->name);
-        $category->description = $request->description;
+        $category->description = $request->description; 
         $category->save();
 
         return redirect()->back()->withSuccess('Category created');

@@ -1,7 +1,8 @@
 @extends('layouts.app')
-
 @section('content')
-<div class="jumbotron text-center mt-8">
+<div class="container">
+<div class="row justify-content-center">
+{{-- <div class="jumbotron text-center mt-8"> --}}
     <h1>Tbest Blog</h1>
 </div>
     @if($errors->any())
@@ -92,3 +93,4 @@
             </div>
         </div>
 @endsection
+
